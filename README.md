@@ -8,7 +8,7 @@ With Docker:
 
 ```sh
 $ docker build -t getir .
-$ docker run -d -it -p 8080:8080  -rm --name getir getir
+$ docker run -d -it -p 8080:8080 --name getir getir
 ```
 ## pull image from dockerhub
 ```sh
